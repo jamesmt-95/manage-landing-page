@@ -30,6 +30,28 @@
             class="hidden rounded-full bg-brightRed p-3 px-6 pt-2 align-baseline text-white hover:bg-brightRedLight md:block"
             >Get Started</a
           >
+          <!-- Hamburger Icon -->
+          <button
+            id="btn-menu"
+            class="hamburger block focus:outline-none md:hidden"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="mob-nav-menu"
+            class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
+          >
+            <a href="# " class="">Pricing</a>
+            <a href="#" class="">Product</a>
+            <a href="#" class="">About Us</a>
+            <a href="#" class="">Careers</a>
+            <a href="#" class="">Community</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -190,6 +212,12 @@
       </section>
       <!-- Testimonials -->
       <section id="testimonials">
+        <img
+          id="bg-img"
+          class="hidden md:block"
+          src="./img/bg-tablet-pattern.svg"
+          alt="bg"
+        />
         <!-- Container to heading and testimonials blocks -->
         <div class="mx-auto mt-32 max-w-6xl px-5 text-center">
           <!-- Heading -->
@@ -359,5 +387,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
